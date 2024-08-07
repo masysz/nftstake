@@ -8,11 +8,11 @@ export default function Home() {
     <div style={{
       display: "flex",
       flexDirection: "column",
-      alignItems: "center",
+      alignItems: "left",
       margin: "20px auto",
       width: "500px",
     }}>
-      <h1>ERC-721 Staking App</h1>
+      <h1>APECOM</h1>
       <ConnectEmbed
         client={client}
         chain={chain}
