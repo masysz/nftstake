@@ -64,7 +64,7 @@ export const Staking = () => {
                 backgroundColor: "#c98816",
                 borderRadius: "8px",
                 width: "100%",
-                maxWidth: "200px",
+                maxWidth: "450px",
                 padding: "20px",
                 boxSizing: "border-box",
             }}>
@@ -95,11 +95,11 @@ export const Staking = () => {
                             getOwnedNFTs();
                         }}
                         style={{
-                            fontSize: "12px",
+                            fontSize: "6px",
                             backgroundColor: "#333",
                             color: "#fff",
-                            padding: "10px 20px",
-                            borderRadius: "10px",
+                            padding: "5px 10px",
+                            borderRadius: "5px",
                         }}
                     >Claim NFT</TransactionButton>
                 </div>
