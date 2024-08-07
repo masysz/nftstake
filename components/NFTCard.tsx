@@ -3,7 +3,7 @@ import { NFT, prepareContractCall } from "thirdweb";
 import { MediaRenderer, TransactionButton } from "thirdweb/react";
 import { NFT_CONTRACT, STAKING_CONTRACT } from "../utils/contracts";
 import { useState } from "react";
-import { approve } from "thirdweb/extensions/erc1155";
+import { approve } from "thirdweb/extensions/erc721";
 
 type OwnedNFTsProps = {
     nft: NFT;
