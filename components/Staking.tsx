@@ -60,10 +60,10 @@ export const Staking = () => {
             <div style={{
                 display: "flex",
                 flexDirection: "column",
-                alignItems: "left",
+                alignItems: "center",
                 backgroundColor: "#c98816",
                 borderRadius: "8px",
-                width: "100%",
+                width: "50%",
                 maxWidth: "450px",
                 padding: "20px",
                 boxSizing: "border-box",
