@@ -81,7 +81,7 @@ export const Staking = () => {
                     width: "100%",
                     flexWrap: "wrap",
                 }}>
-                    <h2 style={{ marginRight: "20px"}}>Claim NFT to Stake</h2>
+                    <h2 style={{ marginRight: "2px"}}>Claim NFT to Stake</h2>
                     <TransactionButton
                         transaction={() => (
                             claimTo({
