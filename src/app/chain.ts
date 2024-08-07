@@ -1,4 +1,3 @@
 import { defineChain } from "thirdweb";
-// import { base } from "thirdweb/chains";
 
-export const chain = defineChain( "base" );
+export const chain = defineChain(parseInt(process.env.NEXT_PUBLIC_CHAIN_ID!) || 8453);
