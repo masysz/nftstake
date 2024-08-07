@@ -64,7 +64,7 @@ export const Staking = () => {
                 backgroundColor: "#c98816",
                 borderRadius: "8px",
                 width: "100%",
-                maxWidth: "500px",
+                maxWidth: "200px",
                 padding: "20px",
                 boxSizing: "border-box",
             }}>
