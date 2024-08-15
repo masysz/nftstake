@@ -61,12 +61,10 @@ export const Staking = () => {
                 display: "flex",
                 flexDirection: "column",
                 alignItems: "center",
-                backgroundColor: "#c98816",
+                backgroundColor: "#151515",
                 borderRadius: "8px",
-                width: "100%",
-                maxWidth: "500px",
+                width: "500px",
                 padding: "20px",
-                boxSizing: "border-box",
             }}>
                 <ConnectButton
                     client={client}
@@ -78,10 +76,9 @@ export const Staking = () => {
                     alignItems: "center",
                     justifyContent: "space-between",
                     margin: "20px 0",
-                    width: "100%",
-                    flexWrap: "wrap",
+                    width: "100%"
                 }}>
-                    <h2 style={{ marginRight: "200px"}}>Claim NFT to Stake</h2>
+                    <h2 style={{ marginRight: "20px"}}>Claim NFT to Stake</h2>
                     <TransactionButton
                         transaction={() => (
                             claimTo({
@@ -112,7 +109,7 @@ export const Staking = () => {
                     width: "100%"
                 }}>
                     <h2>Owned NFTs</h2>
-                    <div style={{ display: "flex", flexDirection: "row", flexWrap: "wrap", width: "100%" }}>
+                    <div style={{ display: "flex", flexDirection: "row", flexWrap: "wrap", width: "500px"}}>
                         {ownedNFTs && ownedNFTs.length > 0 ? (
                             ownedNFTs.map((nft) => (
                                 <NFTCard
@@ -133,7 +130,7 @@ export const Staking = () => {
                 }}/>
                 <div style={{ width: "100%", margin: "20px 0" }}>
                     <h2>Staked NFTs</h2>
-                    <div style={{ display: "flex", flexDirection: "row", flexWrap: "wrap", width: "100%" }}>
+                    <div style={{ display: "flex", flexDirection: "row", flexWrap: "wrap", width: "500px"}}>
                         {stakedInfo && stakedInfo[0].length > 0 ? (
                             stakedInfo[0].map((nft: any, index: number) => (
                                 <StakedNFTCard
