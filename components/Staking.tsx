@@ -7,7 +7,7 @@ import { StakeRewards } from "./StakeRewards";
 import { NFT_CONTRACT, STAKING_CONTRACT } from "../utils/contracts";
 import { NFT } from "thirdweb";
 import { useEffect, useState } from "react";
-import { claimTo, getNFTs, ownerOf, totalSupply } from "thirdweb/extensions/erc721";
+import { claimTo, getNFTs, ownerOf, totalSupply } from "thirdweb/extensions/erc1155";
 import { NFTCard } from "./NFTCard";
 import { StakedNFTCard } from "./StakedNFTCard";
 
