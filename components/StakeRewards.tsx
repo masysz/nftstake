@@ -2,7 +2,7 @@ import { TransactionButton, useActiveAccount, useReadContract } from "thirdweb/r
 import { REWARD_TOKEN_CONTRACT, STAKING_CONTRACT } from "../utils/contracts";
 import { prepareContractCall, toEther } from "thirdweb";
 import { useEffect } from "react";
-import { balanceOf } from "thirdweb/extensions/erc1155";
+import { balanceOf } from "thirdweb/extensions/erc721";
 
 export const StakeRewards = () => {
     const account = useActiveAccount();
