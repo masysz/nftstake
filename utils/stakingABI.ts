@@ -636,7 +636,7 @@ export const stakingABI = [
     },
     {
       "type": "function",
-      "name": "onERC1155Received",
+      "name": "onERC721Received",
       "inputs": [
         {
           "type": "address",
